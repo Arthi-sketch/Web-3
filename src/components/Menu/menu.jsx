@@ -66,7 +66,7 @@ export default function Menu() {
           <Avatar {...stringAvatar("Neon")} />
           <span className={style.logo}>Name</span>
         </Stack>
-        <Image src={img} width={40} height={40} style={{cursor: 'pointer'}} onClick={()=> setMenuNames(!menuNames)}/>
+        <Image src={img} width={40} height={40} style={{cursor: 'pointer'}} alt="back" onClick={()=> setMenuNames(!menuNames)}/>
       </div>
       <br />
 
