@@ -3,7 +3,7 @@
 }
 .dropdown{
   display: flex;
-  gap:'1rem';
+  gap: 5px;
 }
 .form {
   /* line-height: 3rem; */
@@ -39,7 +39,6 @@
     flex-direction: column;
     width: auto;
     justify-content: center;
-    
   }
   .parent {
     line-height: 1rem;
